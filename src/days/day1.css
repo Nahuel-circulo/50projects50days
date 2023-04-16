@@ -1,0 +1,62 @@
+.dragAndDrop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+
+
+}
+
+.dragAndDrop__container {
+    background-color: rgb(233, 230, 230);
+    height: 100vh;
+
+}
+
+
+
+.dragAndDrop__column {
+    background-color: white;
+    border-radius: 5px 5px 0px 0px;
+    min-height: 500px;
+    height: auto;
+}
+.dd-zone{
+    height: 100%;
+    padding: 10px 0px;
+}
+
+.card-task {
+
+
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(233, 230, 230);
+    width: 90%;
+    border-radius: 9px;
+}
+
+.card-task__title {
+    
+}
+
+.card-task__description {
+
+}
+
+.dragAndDrop__column-title {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.b-red {
+    border-top: red 5px solid;
+}
+
+.b-blue {
+    border-top: blue 5px solid;
+}
+
+.b-yellow {
+    border-top: yellow 5px solid;
+}
