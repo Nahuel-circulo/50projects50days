@@ -1,0 +1,79 @@
+.main {
+
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+.steps {
+    display: flex;
+    gap: 0px;
+}
+
+.step {
+
+    border-radius: 50%;
+    border: 5px solid white;
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1/1;
+    transition: border .3s linear;
+    transition-delay: .2s;
+
+}
+
+.step span {
+    font-size: 24px;
+
+}
+
+.step-active {
+    border-color: red;
+    transition-delay: none !important;
+}
+
+.progress {
+    width: 100%;
+    min-width: 50px;
+    height: 5px;
+    align-self: center;
+    background-color: white;
+    transition: background .3s linear;
+    transition-delay: .2s;
+
+}
+
+.progress-active {
+    background-color: red;
+    transition: background .3s linear;
+}
+
+
+
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    background-color: blue;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.button:hover {
+
+    background-color: rgb(48, 48, 226);
+
+}
