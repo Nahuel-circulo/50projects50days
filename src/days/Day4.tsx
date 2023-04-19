@@ -2,11 +2,6 @@ import { useEffect, useRef, useState } from 'react';
 import './day4.css';
 
 const Day4 = () => {
-    /* var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      var scrolled = (winScroll / height) * 100;
-      document.getElementById("myBar").style.width = scrolled + "%"; */
-
 
     const [scrollProgress, setScrollProgress] = useState(0);
 
