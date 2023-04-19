@@ -1,0 +1,18 @@
+.content {
+    width: 100%;
+    height: 400vh;
+    background: linear-gradient(185.59deg, #E1D1F4 0.96%, #FAE5E7 23.53%, #E0E3EC 28.23%, #ADDFF6 39.51%, #8EDCFC 47.97%, #83DCFF 52.67%, #9153C5 75.23%, #351360 94.97%);
+}
+
+.progress-container {
+    width: 100%;
+    height: 8px;
+    position: fixed;
+}
+
+.progress-bar {
+    height: 100%;
+    position: relative;
+    background: red;
+    width: 10%;
+}
